@@ -1,0 +1,103 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "category": "Technology",
+      "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "thumbnail": "/3abf26dd585632b9d05dcfd0daffacedd55842f5.jpg",
+      "author": {
+        "name": "Tracey Wilson ",
+        "avatar": "/40b7c131faedfd7f834c47ba118f3895ffc519cd.jpg"
+      },
+      "published_date": "August 30, 2025"
+    },
+    {
+      "id": 2,
+      "category": "Technology",
+      "title": " The Impact of Technology on the Workplace: How Technology is Changing",
+      "thumbnail": "/74654a8f67369b797c8fb2e96a533fd515fb2939.jpg",
+      "author": {
+        "name": "Jason Francisco",
+        "avatar": "/f952fa479a54dc57c3bfdd71f8ab78628ef9ac9a.jpg"
+      },
+      "published_date": "2025-08-02"
+    },
+    {
+      "id": 3,
+      "category": "Technology",
+      "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "thumbnail": "/74654a8f67369b797c8fb2e96a533fd515fb2939.jpg",
+      "author": {
+        "name": "Elizabeth Slavin ",
+        "avatar": "/db37dd679040be5d5b5b374674cba3ba9bae96c7.jpg"
+      },
+      "published_date": "2025-08-03"
+    },
+    {
+      "id": 4,
+      "category": "Technology",
+      "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "thumbnail": "/fd32a56dd484b871abb15e732abb0a69f2ccd525.jpg",
+      "author": {
+        "name": "Ernie Smith ",
+        "avatar": "/cdb329d9d185cf9e5357b2ca38597c49da427202.jpg"
+      },
+      "published_date": "August 30, 2025"
+    },
+    {
+      "id": 5,
+      "category": "Technology",
+      "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "thumbnail": "/348ec9c194d6445161ab63109e6e813699b61984.jpg",
+      "author": {
+        "name": "Eric Smith ",
+        "avatar": "/bf470a917fcc05b14bc2fd8af4f1a55d22542875.jpg"
+      },
+      "published_date": "August 30, 2025"
+    },
+    {
+      "id": 6,
+      "category": "Technology",
+      "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "thumbnail": "/e4e4d40bdc5bf5a2de00232ed3b7e18eadcbe03a.jpg",
+      "author": {
+        "name": "Tracey Wilson ",
+        "avatar": "/40b7c131faedfd7f834c47ba118f3895ffc519cd.jpg"
+      },
+      "published_date": "August 30, 2025"
+    },
+    {
+      "id": 7,
+      "category": "Technology",
+      "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "thumbnail": "/9cba011547643788a57b79a4aa1d6c6db76208a5.jpg",
+      "author": {
+        "name": "Tracey Wilson ",
+        "avatar": "/f952fa479a54dc57c3bfdd71f8ab78628ef9ac9a.jpg"
+      },
+      "published_date": "August 30, 2025"
+    },
+    {
+      "id": 8,
+      "category": "Technology",
+      "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "thumbnail": "/308705a30ba138a3797a763d4510333166532abb.jpg",
+      "author": {
+        "name": "Tracey Wilson ",
+        "avatar": "/f952fa479a54dc57c3bfdd71f8ab78628ef9ac9a.jpg"
+      },
+      "published_date": "August 30, 2025"
+    },
+    {
+      "id": 9,
+      "category": "Technology",
+      "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "thumbnail": "/dbaeead316e4297057a78fcd78323914d00b0bf8.jpg",
+      "author": {
+        "name": "Tracey Wilson ",
+        "avatar": "/f952fa479a54dc57c3bfdd71f8ab78628ef9ac9a.jpg"
+      },
+      "published_date": "August 30, 2025"
+    }
+  ]
+}
