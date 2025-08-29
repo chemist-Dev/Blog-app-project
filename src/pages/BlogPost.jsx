@@ -32,9 +32,14 @@ const BlogPost = () => {
       <img
         src={post.thumbnail}
         alt={post.title}
-        className="w-[800px] h-[462px] object-cover rounded-xl mb-6 mx-auto"
+        className="w-full h-[462px] object-cover rounded-xl mb-6 mx-auto"
       />
       <div className="prose max-w-none">{post.content}</div>
+      <div className="desc">
+        <p className="mt-6 text-lg text-gray-800 leading-relaxed py-4 ">
+          {post.description}
+        </p>
+      </div>
     </div>
   );
 };
