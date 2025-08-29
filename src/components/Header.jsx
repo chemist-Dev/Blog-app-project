@@ -1,20 +1,27 @@
-import React from "react";
-import Logo from "./logo";
+import Logo from "./Logo";
+import { useState } from "react";
 
-const Header = () => {
-  const [isFocused, setIsFocused] = React.useState(false);
+const Header = ({ onSearch }) => {
+  const [isFocused, setIsFocused] = useState(false);
+  const [input, setInput] = useState("");
+
+  const BlogSearchHandle = (e) => {
+    e.preventDefault();
+    onSearch(input);
+  };
 
   return (
     <header className="flex justify-around px-10 py-5 ">
-      <Logo />
+      <Logo></Logo>
       <p className="text-[#52525B] w-[667px] font-extralight flex items-center justify-center text-md ">
         Home
       </p>
-      <form action="" className="relative">
+      <form action="" onSubmit={BlogSearchHandle} className="relative">
         <input
           type="text"
           placeholder="Search"
           name="search"
+          onChange={(e) => setInput(e.target.value)}
           className={`py-2 px-4 rounded bg-[#F4F4F5] border ${
             isFocused ? "border-[#002fff6a]" : "border-transparent"
           } outline-none`}

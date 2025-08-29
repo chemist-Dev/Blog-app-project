@@ -2,18 +2,26 @@ import { useState } from "react";
 import postsData from "../data/blogs.json";
 import BlogCard from "./BlogCard";
 
-const BlogList = () => {
+const BlogList = ({ searchQuery }) => {
   const [visiblePosts, setVisiblePosts] = useState(3);
+
+  // Filter posts by title with null check
+  const filteredPosts = postsData.posts.filter((post) =>
+    searchQuery
+      ? post.title.toLowerCase().includes(searchQuery.toLowerCase())
+      : true
+  );
 
   const showMorePosts = () => {
     setVisiblePosts((prevVisiblePosts) => prevVisiblePosts + 3);
   };
 
-  const hasMorePosts = visiblePosts < postsData.posts.length;
+  const hasMorePosts = visiblePosts < filteredPosts.length;
+
   return (
     <div className="container mx-auto my-10">
       <div className="flex flex-wrap justify-center">
-        {postsData.posts.slice(0, visiblePosts).map((post) => (
+        {filteredPosts.slice(0, visiblePosts).map((post) => (
           <BlogCard key={post.id} post={post} />
         ))}
       </div>
