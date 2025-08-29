@@ -1,13 +1,17 @@
-import { Outlet } from "react-router-dom";
+import { useState, useCallback } from "react";
+import { Outlet } from "react-router";
 import Header from "../components/Header";
-import { useState } from "react";
-import BlogList from "../components/BlogList";
 
 const Layout = () => {
   const [searchQuery, setSearchQuery] = useState("");
+
+  const handleSearch = useCallback((query) => {
+    setSearchQuery(query);
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col">
-      <Header onSearch={setSearchQuery} />
+      <Header onSearch={handleSearch} />
       <main className="flex-grow">
         <Outlet context={{ searchQuery }} />
       </main>
