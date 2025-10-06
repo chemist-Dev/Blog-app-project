@@ -12,7 +12,7 @@ const BlogCard = ({ post }) => {
       <img
         src={thumbnail}
         alt={title}
-        loading="lazy"
+        loading={"lazy"}
         className="rounded-lg mb-4 w-full h-[200px] object-cover"
       />
       <div className="space-y-4">
@@ -27,7 +27,7 @@ const BlogCard = ({ post }) => {
             <img
               src={author.avatar}
               alt={author.name}
-              loading="lazy"
+        loading={"lazy"}
               className="w-8 h-8 rounded-full"
             />
             <span className="text-[#97989F] text-sm">{author.name}</span>
